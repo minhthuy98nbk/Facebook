@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/back">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ice"
+        android:layout_alignParentBottom="true"/>
+
 
     <LinearLayout
         android:gravity="center"
@@ -75,7 +81,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:text="@string/sign_up"/>
 
         <Button
@@ -90,6 +97,8 @@
             android:text="@string/hoi"/>
 
     </RelativeLayout>
+
+
 
 </RelativeLayout>
 
